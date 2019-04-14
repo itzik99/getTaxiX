@@ -27,6 +27,9 @@ public class MainActivity extends AppCompatActivity{
         setContentView(R.layout.activity_main);
 
         btGet = (Button) findViewById(R.id.getTaxiBtn);
+        btGet = (Button) findViewById(R.id.getTaxiBtn);
+        btGet = (Button) findViewById(R.id.getTaxiBtn);
+        btGet = (Button) findViewById(R.id.getTaxiBtn);
 
         StorageReference mStorageRef;
         mStorageRef = FirebaseStorage.getInstance().getReference();
