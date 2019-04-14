@@ -30,6 +30,11 @@ public class MainActivity extends AppCompatActivity{
         btGet = (Button) findViewById(R.id.getTaxiBtn);
         btGet = (Button) findViewById(R.id.getTaxiBtn);
         btGet = (Button) findViewById(R.id.getTaxiBtn);
+        btGet = (Button) findViewById(R.id.getTaxiBtn);
+        btGet = (Button) findViewById(R.id.getTaxiBtn);
+        btGet = (Button) findViewById(R.id.getTaxiBtn);
+        btGet = (Button) findViewById(R.id.getTaxiBtn);
+        btGet = (Button) findViewById(R.id.getTaxiBtn);
 
         StorageReference mStorageRef;
         mStorageRef = FirebaseStorage.getInstance().getReference();
