@@ -55,6 +55,7 @@ public class OrderTaxi extends AppCompatActivity {
 
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
+
         DatabaseReference myRef = database.getReference("rides");
         DatabaseReference myRef2 = myRef.child(((EditText) findViewById(R.id.emailTxtBox)).getText().toString());
         DatabaseReference myRef3 = myRef2.child("origin");
