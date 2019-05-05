@@ -44,7 +44,7 @@ public class OrderTaxi extends AppCompatActivity {
 
     }
 
-    public void subBtnClickHandler(View view){
+    public void subBtnClickHandler(View view) {
 
         Toast.makeText(this, passName.getText().toString(), Toast.LENGTH_LONG).show();
         SharedPreferences.Editor editor=sp.edit();
@@ -54,12 +54,12 @@ public class OrderTaxi extends AppCompatActivity {
         editor.commit();
 
 
-
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("rides");
         DatabaseReference myRef2 = myRef.child(((EditText) findViewById(R.id.emailTxtBox)).getText().toString());
         DatabaseReference myRef3 = myRef2.child("origin");
         myRef3.setValue(passOrigin.getText().toString());
+      
         DatabaseReference myRef4 = myRef2.child("phone");
         myRef4.setValue(passPhoneNum.getText().toString());
         DatabaseReference myRef6 = myRef2.child("destination");
@@ -67,8 +67,7 @@ public class OrderTaxi extends AppCompatActivity {
 
     }
 
-    public void SharedPreferences()
-    {
+    public void SharedPreferences() {
 
         // function the saving passenger information in SharedPreferences
         sp = getSharedPreferences("user",0);
@@ -81,8 +80,8 @@ public class OrderTaxi extends AppCompatActivity {
             passName.setText(nameUser);
             passPhoneNum.setText(phoneUser);
             passEmail.setText(emailUser);
-        }
 
+        }
 
     }
 }
