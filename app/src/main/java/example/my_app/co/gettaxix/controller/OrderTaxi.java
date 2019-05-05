@@ -57,8 +57,7 @@ public class OrderTaxi extends AppCompatActivity {
 
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef1 = database.getReference("waitRides");
-        //DatabaseReference myRef1 = myRef.child("Traveller");
+        DatabaseReference myRef1 = database.getReference("rides");
         DatabaseReference myRef2 = myRef1.child(passFname.getText().toString());
         DatabaseReference myRef3 = myRef2.child("Last name");
         myRef3.setValue(passLname.getText().toString());
