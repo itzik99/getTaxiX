@@ -20,34 +20,15 @@
                 android:padding="5dp"
                 android:layout_marginTop="20dp"
                 android:src="@drawable/icontaxi"/>
-
             <EditText
-                android:id="@+id/fNameTxtBox"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:background="@android:color/transparent"
-                android:drawableLeft="@drawable/manuser"
-                android:drawablePadding="12dp"
-                android:ems="10"
-                android:hint="First Name"
-                android:inputType="textEmailAddress"
-                android:maxLines="1"
-                android:padding="8dp"
-                android:textColorHint="#090808" />
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="#f9d7db" />
-            <EditText
-                android:id="@+id/lNameTxtBox"
+                android:id="@+id/NameTxtBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress"
                 android:ems="10"
                 android:drawablePadding="12dp"
                 android:padding="8dp"
-                android:hint="Last name"
+                android:hint="name"
                 android:textColorHint="#0F0F0F"
                 android:maxLines="1"
                 android:background="@android:color/transparent"
