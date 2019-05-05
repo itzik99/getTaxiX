@@ -48,8 +48,6 @@ public class OrderTaxi extends AppCompatActivity {
 
         Toast.makeText(this, passFname.getText().toString(), Toast.LENGTH_LONG).show();
         SharedPreferences.Editor editor = sp.edit();
-        editor.putString("idUser",passId.getText().toString());
-        
         editor.putString("fName",passFname.getText().toString());
         editor.putString("lName",passLname.getText().toString());
         editor.putString("phone",passPhoneNum.getText().toString());
