@@ -21,7 +21,7 @@ import example.my_app.co.gettaxix.model.entities.Passenger;
 public class OrderTaxi extends AppCompatActivity {
 
     Button submitBtn;
-    EditText passFname, passLname, passPhoneNum, passEmail, passOrigin, passDest;
+    EditText  passName, passPhoneNum, passEmail, passOrigin, passDest,passEmail2;
     SharedPreferences sp;
 
     @Override
@@ -31,12 +31,12 @@ public class OrderTaxi extends AppCompatActivity {
 
 
         submitBtn = (Button) findViewById(R.id.submitBtn);
-        passFname = (EditText) findViewById(R.id.fNameTxtBox);
-        passLname = (EditText) findViewById(R.id.lNameTxtBox);
+        passName = (EditText) findViewById(R.id.NameTxtBox);
         passPhoneNum = (EditText) findViewById(R.id.phoneNumTxtBox);
         passEmail = (EditText) findViewById(R.id.emailTxtBox);
         passOrigin = (EditText) findViewById(R.id.originTxtBox);
         passDest = (EditText) findViewById(R.id.destTxtBox);
+      //  passEmail = (EditText) findViewById(R.id.emailTxtBox); passEmail2
 
         // function the saving passenger information in SharedPreferences
         SharedPreferences();
@@ -46,24 +46,25 @@ public class OrderTaxi extends AppCompatActivity {
 
     public void subBtnClickHandler(View view) {
 
-        Toast.makeText(this, passFname.getText().toString(), Toast.LENGTH_LONG).show();
-        SharedPreferences.Editor editor = sp.edit();
-        editor.putString("fName",passFname.getText().toString());
-        editor.putString("lName",passLname.getText().toString());
+        Toast.makeText(this, passName.getText().toString(), Toast.LENGTH_LONG).show();
+        SharedPreferences.Editor editor=sp.edit();
+        editor.putString("Name",passName.getText().toString());
         editor.putString("phone",passPhoneNum.getText().toString());
         editor.putString("email",passEmail.getText().toString());
         editor.commit();
 
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef1 = database.getReference("rides");
-        DatabaseReference myRef2 = myRef1.child(passFname.getText().toString());
-        DatabaseReference myRef3 = myRef2.child("Last name");
-        myRef3.setValue(passLname.getText().toString());
+
+        DatabaseReference myRef = database.getReference("rides");
+        DatabaseReference myRef2 = myRef.child(((EditText) findViewById(R.id.emailTxtBox)).getText().toString());
+        DatabaseReference myRef3 = myRef2.child("origin");
+        myRef3.setValue(passOrigin.getText().toString());
+      
         DatabaseReference myRef4 = myRef2.child("phone");
         myRef4.setValue(passPhoneNum.getText().toString());
-        DatabaseReference myRef5 = myRef2.child("Email");
-        myRef5.setValue(passEmail.getText().toString());
+        DatabaseReference myRef6 = myRef2.child("destination");
+        myRef6.setValue(passDest.getText().toString());
 
     }
 
@@ -71,15 +72,13 @@ public class OrderTaxi extends AppCompatActivity {
 
         // function the saving passenger information in SharedPreferences
         sp = getSharedPreferences("user",0);
-        String fnameUser= sp.getString("fName",null);
-        String lnameUser= sp.getString("lName",null);
+        String nameUser= sp.getString("lName",null);
         String phoneUser= sp.getString("phone",null);
         String emailUser= sp.getString("email",null);
 
-        if( fnameUser != null && lnameUser != null)
+        if(  nameUser != null)
         {
-            passFname.setText(fnameUser);
-            passLname.setText(lnameUser);
+            passName.setText(nameUser);
             passPhoneNum.setText(phoneUser);
             passEmail.setText(emailUser);
 
