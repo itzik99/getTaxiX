@@ -21,7 +21,8 @@ import example.my_app.co.gettaxix.model.entities.Passenger;
 public class OrderTaxi extends AppCompatActivity {
 
     Button submitBtn;
-    EditText  passName, passPhoneNum, passEmail, passOrigin, passDest,passEmail2;
+    EditText  passName, passPhoneNum, passEmail, passOrigin, passDestination, passEmail2;
+    boolean passIsPicked = false;
     SharedPreferences sp;
 
     @Override
@@ -35,36 +36,41 @@ public class OrderTaxi extends AppCompatActivity {
         passPhoneNum = (EditText) findViewById(R.id.phoneNumTxtBox);
         passEmail = (EditText) findViewById(R.id.emailTxtBox);
         passOrigin = (EditText) findViewById(R.id.originTxtBox);
-        passDest = (EditText) findViewById(R.id.destTxtBox);
-      //  passEmail = (EditText) findViewById(R.id.emailTxtBox); passEmail2
+        passDestination = (EditText) findViewById(R.id.destTxtBox);
+        passEmail2 = (EditText) findViewById(R.id.emailTxtBox);
 
         // function the saving passenger information in SharedPreferences
         SharedPreferences();
-
-
+        
     }
 
     public void subBtnClickHandler(View view) {
 
-        Toast.makeText(this, passName.getText().toString(), Toast.LENGTH_LONG).show();
+
         SharedPreferences.Editor editor=sp.edit();
         editor.putString("Name",passName.getText().toString());
         editor.putString("phone",passPhoneNum.getText().toString());
         editor.putString("email",passEmail.getText().toString());
         editor.commit();
 
-
         FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRides = database.getReference("rides");
+        DatabaseReference myRide = myRides.child(passPhoneNum.getText().toString());
 
-        DatabaseReference myRef = database.getReference("rides");
-        DatabaseReference myRef2 = myRef.child(((EditText) findViewById(R.id.emailTxtBox)).getText().toString());
-        DatabaseReference myRef3 = myRef2.child("origin");
-        myRef3.setValue(passOrigin.getText().toString());
-      
-        DatabaseReference myRef4 = myRef2.child("phone");
-        myRef4.setValue(passPhoneNum.getText().toString());
-        DatabaseReference myRef6 = myRef2.child("destination");
-        myRef6.setValue(passDest.getText().toString());
+        DatabaseReference rideName = myRide.child("name");
+        rideName.setValue(passName.getText().toString());
+        DatabaseReference ridePhone = myRide.child("phone");
+        ridePhone.setValue(passPhoneNum.getText().toString());
+        DatabaseReference rideEmail = myRide.child("email");
+        rideEmail.setValue(passEmail.getText().toString());
+        DatabaseReference rideOrig = myRide.child("origin");
+        rideOrig.setValue(passOrigin.getText().toString());
+        DatabaseReference rideDest = myRide.child("destination");
+        rideDest.setValue(passDestination.getText().toString());
+        DatabaseReference isPicked = myRide.child("isPicked");
+        isPicked.setValue(passIsPicked);
+
+        Toast.makeText(this, passName.getText().toString(), Toast.LENGTH_LONG).show();
 
     }
 
