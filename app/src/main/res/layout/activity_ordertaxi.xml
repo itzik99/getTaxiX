@@ -20,24 +20,7 @@
                 android:padding="5dp"
                 android:layout_marginTop="20dp"
                 android:src="@drawable/icontaxi"/>
-            <EditText
-                android:id="@+id/idTxtBox"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:background="@android:color/transparent"
-                android:drawableLeft="@drawable/manuser"
-                android:drawablePadding="12dp"
-                android:ems="10"
-                android:hint="id user"
-                android:inputType="textEmailAddress"
-                android:maxLines="1"
-                android:padding="8dp"
-                android:textColorHint="#090808" />
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="#f9d7db" />
+
             <EditText
                 android:id="@+id/fNameTxtBox"
                 android:layout_width="match_parent"
@@ -151,7 +134,6 @@
 
             <Button
                 android:id="@+id/submitBtn"
-                style="@style/Base.TextAppearance.AppCompat.Body1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"

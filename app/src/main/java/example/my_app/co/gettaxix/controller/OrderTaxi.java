@@ -21,7 +21,7 @@ import example.my_app.co.gettaxix.model.entities.Passenger;
 public class OrderTaxi extends AppCompatActivity {
 
     Button submitBtn;
-    EditText passId, passFname, passLname, passPhoneNum, passEmail, passOrigin, passDest;
+    EditText passFname, passLname, passPhoneNum, passEmail, passOrigin, passDest;
     SharedPreferences sp;
 
     @Override
@@ -29,7 +29,7 @@ public class OrderTaxi extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ordertaxi);
 
-        passId = (EditText) findViewById(R.id.idTxtBox);
+
         submitBtn = (Button) findViewById(R.id.submitBtn);
         passFname = (EditText) findViewById(R.id.fNameTxtBox);
         passLname = (EditText) findViewById(R.id.lNameTxtBox);
@@ -48,7 +48,6 @@ public class OrderTaxi extends AppCompatActivity {
 
         Toast.makeText(this, passFname.getText().toString(), Toast.LENGTH_LONG).show();
         SharedPreferences.Editor editor=sp.edit();
-        editor.putString("idUser",passId.getText().toString());
         editor.putString("fName",passFname.getText().toString());
         editor.putString("lName",passLname.getText().toString());
         editor.putString("phone",passPhoneNum.getText().toString());
@@ -75,7 +74,6 @@ public class OrderTaxi extends AppCompatActivity {
 
         // function the saving passenger information in SharedPreferences
         sp = getSharedPreferences("user",0);
-        String idUser= sp.getString("idUser",null);
         String fnameUser= sp.getString("fName",null);
         String lnameUser= sp.getString("lName",null);
         String phoneUser= sp.getString("phone",null);
@@ -83,7 +81,6 @@ public class OrderTaxi extends AppCompatActivity {
 
         if( fnameUser != null && lnameUser != null)
         {
-            passId.setText(idUser);
             passFname.setText(fnameUser);
             passLname.setText(lnameUser);
             passPhoneNum.setText(phoneUser);
