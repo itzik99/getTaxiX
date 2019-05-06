@@ -30,7 +30,6 @@ public class OrderTaxi extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ordertaxi);
 
-
         submitBtn = (Button) findViewById(R.id.submitBtn);
         passName = (EditText) findViewById(R.id.NameTxtBox);
         passPhoneNum = (EditText) findViewById(R.id.phoneNumTxtBox);
