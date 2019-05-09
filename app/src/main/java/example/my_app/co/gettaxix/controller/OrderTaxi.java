@@ -1,16 +1,12 @@
 package example.my_app.co.gettaxix.controller;
 
-import android.Manifest;
+//import android.manifest;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.location.Location;
-import android.os.LocaleList;
+import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.text.TextUtils;
-import android.util.Log;
-import android.util.LogPrinter;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -18,16 +14,12 @@ import android.widget.Toast;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
+
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.provider.FirebaseInitProvider;
-
-import java.lang.reflect.Type;
-import java.security.PublicKey;
 
 import example.my_app.co.gettaxix.R;
-import example.my_app.co.gettaxix.model.entities.Passenger;
 
 import static android.Manifest.permission.ACCESS_FINE_LOCATION;
 
