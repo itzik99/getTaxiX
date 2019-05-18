@@ -6,16 +6,15 @@
     android:layout_height="match_parent"
     tools:context="example.my_app.co.gettaxix.controller.MainActivity"
     android:orientation="vertical"
-    android:background="@drawable/orderataxi">
+    android:background="@drawable/orderataxi"
+    android:id="@+id/first">
 
-    <ImageView
-        android:layout_width="276dp"
-        android:layout_height="238dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="50dp"
-        android:padding="1dp"
-        android:src="@drawable/maintaxi" />
-
+    <fragment
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/map"
+        android:layout_width="400dp"
+        android:layout_height="450dp"
+        />
     <Button
         android:id="@+id/getTaxiBtn"
         android:layout_width="250dp"
@@ -26,14 +25,6 @@
         android:fontFamily="sans-serif-black"
         android:text="Get me a taxi!"
         android:textSize="25sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="10sp"
-        android:textColor="#F30606"
-        android:text="כל הזכויות שמורות ליאיר ואיציק"
-        android:gravity="left"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="180dp"
-        android:layoutDirection="rtl"/>
+
+
 </LinearLayout>
