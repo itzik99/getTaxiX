@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
         btGet = (Button) findViewById(R.id.getTaxiBtn);
 
         StorageReference mStorageRef;
