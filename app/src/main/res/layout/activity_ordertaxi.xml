@@ -83,25 +83,39 @@
                 android:layout_height="1dp"
                 android:background="#f9d7db" />
 
-            <EditText
-                android:id="@+id/originTxtBox"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
-                android:background="@android:color/transparent"
-                android:drawableLeft="@drawable/placeholder"
-                android:drawablePadding="12dp"
-                android:ems="10"
-                android:hint="Location"
-                android:inputType="textEmailAddress"
-                android:maxLines="1"
-                android:padding="8dp"
-                android:textColorHint="#0F0F0F" />
-
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#f9d7db" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/originTxtBox"
+                    android:layout_width="307dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:background="@android:color/transparent"
+                    android:drawableLeft="@drawable/placeholder"
+                    android:drawablePadding="12dp"
+                    android:ems="10"
+                    android:hint="Location"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:padding="8dp"
+                    android:textColorHint="#0F0F0F" />
+
+                <Button
+                    android:id="@+id/geoCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="geoCodeFunc"
+                    android:text="geoCode" />
+
+            </LinearLayout>
 
             <EditText
                 android:id="@+id/destTxtBox"
@@ -137,22 +151,15 @@
                 android:textAllCaps="false"
                 android:textColor="#140608"
                 android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/getLoc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="getLocFunc"
+                android:text="getLoc" />
         </LinearLayout>
     </ScrollView>
-
-    <Button
-        android:id="@+id/getLoc"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="getLoc"
-        android:onClick="getLocFunc"/>
-
-    <Button
-        android:id="@+id/geoCode"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="geoCode"
-        android:onClick="geoCodeFunc"/>
 
     <TextView
         android:id="@+id/locTxtView"

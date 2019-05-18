@@ -4,10 +4,14 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.graphics.drawable.AnimationDrawable;
+import android.location.Address;
+import android.location.Geocoder;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.media.audiofx.Equalizer;
+import android.os.SystemClock;
 import android.provider.Settings;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -24,6 +28,11 @@ import com.google.android.gms.location.LocationSettingsRequest;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+
+import java.io.IOException;
+import java.util.List;
+import java.util.Locale;
+
 import example.my_app.co.gettaxix.R;
 import static android.Manifest.permission.ACCESS_FINE_LOCATION;
 import static com.google.android.gms.location.LocationRequest.PRIORITY_HIGH_ACCURACY;
@@ -33,8 +42,6 @@ public class OrderTaxi extends AppCompatActivity {
 
     private FusedLocationProviderClient client;
 
-    LocationListener locationListener;
-    LocationManager locationManager;
     Button submitBtn, getLoc, geoCode;
     TextView txtview;
     EditText passName, passPhoneNum, passEmail, passOrigin, passDestination, passEmail2;
@@ -82,7 +89,9 @@ public class OrderTaxi extends AppCompatActivity {
         ActivityCompat.requestPermissions(this, new String[]{ACCESS_FINE_LOCATION}, 1);
     }
 
-    public void subBtnClickHandler(View view) {
+    public void subBtnClickHandler(View view) throws IOException {
+        double longitude = 0;
+        double latitude = 0;
 
         SharedPreferences.Editor editor = sp.edit();
 
@@ -102,9 +111,22 @@ public class OrderTaxi extends AppCompatActivity {
         DatabaseReference rideEmail = myRide.child("email");
         rideEmail.setValue(passEmail.getText().toString());
         DatabaseReference rideOrig = myRide.child("origin");
-        rideOrig.setValue(passOrigin.getText().toString());
+            DatabaseReference origLong = rideOrig.child("origLong");
+            origLong.setValue(local.getLongitude());
+            DatabaseReference origLat = rideOrig.child("origLat");
+            origLat.setValue(local.getLatitude());
         DatabaseReference rideDest = myRide.child("destination");
-        rideDest.setValue(passDestination.getText().toString());
+            Geocoder geocoder = new Geocoder(this);
+            List<Address> destAdresses;
+            destAdresses = geocoder.getFromLocationName(passDestination.getText().toString(), 1);
+            if(destAdresses.size() > 0) {
+                latitude= destAdresses.get(0).getLatitude();
+                longitude= destAdresses.get(0).getLongitude();
+            }
+            DatabaseReference destLong = rideDest.child("destLong");
+            destLong.setValue(longitude);
+            DatabaseReference destLat = rideDest.child("destLat");
+            destLat.setValue(latitude);
         DatabaseReference isPicked = myRide.child("isPicked");
         isPicked.setValue(passIsPicked);
 
@@ -113,46 +135,15 @@ public class OrderTaxi extends AppCompatActivity {
     }
 
     public void getLocFunc(View view) {
-        Toast.makeText(this, "getloc!", Toast.LENGTH_SHORT).show();
-        locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
-        locationListener = new LocationListener() {
-            @Override
-            public void onLocationChanged(Location location) {
-                txtview.append("\n"+location.getLatitude()+ " "+location.getLongitude());
-            }
-
-            @Override
-            public void onStatusChanged(String s, int i, Bundle bundle) {
-
-            }
-
-            @Override
-            public void onProviderEnabled(String s) {
-
-            }
-
-            @Override
-            public void onProviderDisabled(String s) {
-                Intent intent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
-                startActivity(intent);
-            }
-        };
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            // TODO: Consider calling
-            //    ActivityCompat#requestPermissions
-            // here to request the missing permissions, and then overriding
-            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-            //                                          int[] grantResults)
-            // to handle the case where the user grants the permission. See the documentation
-            // for ActivityCompat#requestPermissions for more details.
-            return;
-        }
-        locationManager.requestLocationUpdates("gps", 3000, 15, locationListener);
-
+        txtview.setText("Latitude: "+String.valueOf(local.getLatitude())+", Longitude: "+String.valueOf(local.getLongitude()));
     }
 
-    public void geoCodeFunc(View view) {
-        Toast.makeText(this, "geocode!", Toast.LENGTH_SHORT).show();
+    public void geoCodeFunc(View view) throws IOException {
+        Geocoder geocoder = new Geocoder(this, Locale.getDefault());
+        List<Address> addresses = null;
+        addresses = geocoder.getFromLocation(local.getLatitude(), local.getLongitude(), 1);
+        Address address = addresses.get(0);
+        passOrigin.setText(address.getAddressLine(0));
     }
 
     public void SharedPreferences() {
