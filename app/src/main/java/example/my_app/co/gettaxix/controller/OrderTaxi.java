@@ -69,9 +69,7 @@ public class OrderTaxi extends AppCompatActivity {
         });
 
 
-        txtview = (TextView) findViewById(R.id.locTxtView);
         submitBtn = (Button) findViewById(R.id.submitBtn);
-        getLoc = (Button) findViewById(R.id.getLoc);
         geoCode = (Button) findViewById(R.id.geoCode);
         passName = (EditText) findViewById(R.id.NameTxtBox);
         passPhoneNum = (EditText) findViewById(R.id.phoneNumTxtBox);
@@ -100,42 +98,41 @@ public class OrderTaxi extends AppCompatActivity {
         editor.putString("email", passEmail.getText().toString());
         editor.commit();
 
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRides = database.getReference("rides");
-        DatabaseReference myRide = myRides.child(passPhoneNum.getText().toString());
+        if(false) {
+            FirebaseDatabase database = FirebaseDatabase.getInstance();
+            DatabaseReference myRides = database.getReference("rides");
+            DatabaseReference myRide = myRides.child(passPhoneNum.getText().toString());
 
-        DatabaseReference rideName = myRide.child("name");
-        rideName.setValue(passName.getText().toString());
-        DatabaseReference ridePhone = myRide.child("phone");
-        ridePhone.setValue(passPhoneNum.getText().toString());
-        DatabaseReference rideEmail = myRide.child("email");
-        rideEmail.setValue(passEmail.getText().toString());
-        DatabaseReference rideOrig = myRide.child("origin");
+            DatabaseReference rideName = myRide.child("name");
+            rideName.setValue(passName.getText().toString());
+            DatabaseReference ridePhone = myRide.child("phone");
+            ridePhone.setValue(passPhoneNum.getText().toString());
+            DatabaseReference rideEmail = myRide.child("email");
+            rideEmail.setValue(passEmail.getText().toString());
+            DatabaseReference rideOrig = myRide.child("origin");
             DatabaseReference origLong = rideOrig.child("origLong");
             origLong.setValue(local.getLongitude());
             DatabaseReference origLat = rideOrig.child("origLat");
             origLat.setValue(local.getLatitude());
-        DatabaseReference rideDest = myRide.child("destination");
+            DatabaseReference rideDest = myRide.child("destination");
             Geocoder geocoder = new Geocoder(this);
             List<Address> destAdresses;
             destAdresses = geocoder.getFromLocationName(passDestination.getText().toString(), 1);
-            if(destAdresses.size() > 0) {
-                latitude= destAdresses.get(0).getLatitude();
-                longitude= destAdresses.get(0).getLongitude();
+            if (destAdresses.size() > 0) {
+                latitude = destAdresses.get(0).getLatitude();
+                longitude = destAdresses.get(0).getLongitude();
             }
             DatabaseReference destLong = rideDest.child("destLong");
             destLong.setValue(longitude);
             DatabaseReference destLat = rideDest.child("destLat");
             destLat.setValue(latitude);
-        DatabaseReference isPicked = myRide.child("isPicked");
-        isPicked.setValue(passIsPicked);
+            DatabaseReference isPicked = myRide.child("isPicked");
+            isPicked.setValue(passIsPicked);
 
-        Toast.makeText(this, passName.getText().toString(), Toast.LENGTH_LONG).show();
-
-    }
-
-    public void getLocFunc(View view) {
-        txtview.setText("Latitude: "+String.valueOf(local.getLatitude())+", Longitude: "+String.valueOf(local.getLongitude()));
+            Toast.makeText(this, passName.getText().toString(), Toast.LENGTH_LONG).show();
+        }else {
+            Toast.makeText(this, "phone number is a mandatory", Toast.LENGTH_LONG).show();
+        }
     }
 
     public void geoCodeFunc(View view) throws IOException {
