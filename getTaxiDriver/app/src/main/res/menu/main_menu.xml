@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="ExtraText">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/save"
+
+        android:orderInCategory="100"
+        android:title="save"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/delete"
+
+        android:orderInCategory="100"
+        android:title="delete"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/travelPending"
+        android:orderInCategory="100"
+        android:title="travel Pending"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/travelEnded"
+        android:orderInCategory="100"
+        android:title="travel Ended"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/getTaxi"
+        android:orderInCategory="100"
+        android:title="get taxi"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="100"
+        android:title="exit"
+        app:showAsAction="never"/>
+</menu>
