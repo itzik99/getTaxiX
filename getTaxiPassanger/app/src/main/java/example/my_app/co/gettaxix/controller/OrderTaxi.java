@@ -1,4 +1,5 @@
 package example.my_app.co.gettaxix.controller;
+
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -34,6 +35,8 @@ import java.util.List;
 import java.util.Locale;
 
 import example.my_app.co.gettaxix.R;
+import example.my_app.co.gettaxix.model.entities.Passenger;
+
 import static android.Manifest.permission.ACCESS_FINE_LOCATION;
 import static com.google.android.gms.location.LocationRequest.PRIORITY_HIGH_ACCURACY;
 
@@ -90,6 +93,13 @@ public class OrderTaxi extends AppCompatActivity {
     public void subBtnClickHandler(View view) throws IOException {
         double longitude = 0;
         double latitude = 0;
+        Geocoder geocoder = new Geocoder(this);
+        List<Address> destAdresses;
+        destAdresses = geocoder.getFromLocationName(passDestination.getText().toString(), 1);
+        if (destAdresses.size() > 0) {
+            latitude = destAdresses.get(0).getLatitude();
+            longitude = destAdresses.get(0).getLongitude();
+        }
 
         SharedPreferences.Editor editor = sp.edit();
 
@@ -98,36 +108,13 @@ public class OrderTaxi extends AppCompatActivity {
         editor.putString("email", passEmail.getText().toString());
         editor.commit();
 
-        if(false) {
-            FirebaseDatabase database = FirebaseDatabase.getInstance();
-            DatabaseReference myRides = database.getReference("rides");
-            DatabaseReference myRide = myRides.child(passPhoneNum.getText().toString());
 
-            DatabaseReference rideName = myRide.child("name");
-            rideName.setValue(passName.getText().toString());
-            DatabaseReference ridePhone = myRide.child("phone");
-            ridePhone.setValue(passPhoneNum.getText().toString());
-            DatabaseReference rideEmail = myRide.child("email");
-            rideEmail.setValue(passEmail.getText().toString());
-            DatabaseReference rideOrig = myRide.child("origin");
-            DatabaseReference origLong = rideOrig.child("origLong");
-            origLong.setValue(local.getLongitude());
-            DatabaseReference origLat = rideOrig.child("origLat");
-            origLat.setValue(local.getLatitude());
-            DatabaseReference rideDest = myRide.child("destination");
-            Geocoder geocoder = new Geocoder(this);
-            List<Address> destAdresses;
-            destAdresses = geocoder.getFromLocationName(passDestination.getText().toString(), 1);
-            if (destAdresses.size() > 0) {
-                latitude = destAdresses.get(0).getLatitude();
-                longitude = destAdresses.get(0).getLongitude();
-            }
-            DatabaseReference destLong = rideDest.child("destLong");
-            destLong.setValue(longitude);
-            DatabaseReference destLat = rideDest.child("destLat");
-            destLat.setValue(latitude);
-            DatabaseReference isPicked = myRide.child("isPicked");
-            isPicked.setValue(passIsPicked);
+        if(true) {
+            Passenger pass = new Passenger(passPhoneNum.getText().toString(), passName.getText().toString(), passEmail.getText().toString(), String.valueOf(local.getLongitude()), String.valueOf(local.getLatitude()), String.valueOf(longitude), String.valueOf(latitude), false);
+            FirebaseDatabase database = FirebaseDatabase.getInstance();
+            DatabaseReference myRides = database.getReference("Rides");
+            DatabaseReference myRide = myRides.child(pass.getPhoneNum());
+            myRide.setValue(pass);
 
             Toast.makeText(this, passName.getText().toString(), Toast.LENGTH_LONG).show();
         }else {

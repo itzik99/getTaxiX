@@ -6,7 +6,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import example.my_app.co.gettaxi2.R;
 
 public class main_travel extends AppCompatActivity {
 
@@ -16,9 +15,6 @@ public class main_travel extends AppCompatActivity {
         setContentView(R.layout.activity_main_travel);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
-        //setSupportActionBar(toolbar);
-        //toolbar.setTitle("MY Toolbar !");
-        //toolbar.setSubtitle("This is my smart toolbar !");
         toolbar.setNavigationIcon(R.drawable.ic_arrow_back_black_24dp);
         toolbar.inflateMenu(R.menu.main_menu);
         toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener(){
