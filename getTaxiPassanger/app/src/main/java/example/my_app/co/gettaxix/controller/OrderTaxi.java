@@ -116,7 +116,6 @@ public class OrderTaxi extends AppCompatActivity {
             DatabaseReference myRide = myRides.child(pass.getPhoneNum());
             myRide.setValue(pass);
 
-            Toast.makeText(this, passEmail.getText().toString(),Toast.LENGTH_LONG).show();
             Toast.makeText(this, passName.getText().toString(), Toast.LENGTH_LONG).show();
         }else {
             Toast.makeText(this, "phone number is a mandatory", Toast.LENGTH_LONG).show();
