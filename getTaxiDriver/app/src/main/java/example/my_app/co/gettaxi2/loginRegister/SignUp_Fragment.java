@@ -3,6 +3,7 @@ import java.util.concurrent.Executor;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -45,7 +46,6 @@ public class SignUp_Fragment extends Fragment implements OnClickListener {
 
 
     public SignUp_Fragment() {
-
     }
 
     @Override
@@ -75,7 +75,7 @@ public class SignUp_Fragment extends Fragment implements OnClickListener {
         sp = this.getActivity().getSharedPreferences("driver", Context.MODE_PRIVATE);
 
         // Setting text selector over textviews
-        XmlResourceParser xrp = getResources().getXml(R.drawable.text_selector);
+        @SuppressLint("ResourceType") XmlResourceParser xrp = getResources().getXml(R.drawable.text_selector);
         try {
             ColorStateList csl = ColorStateList.createFromXml(getResources(),
                     xrp);
@@ -131,26 +131,26 @@ public class SignUp_Fragment extends Fragment implements OnClickListener {
                 || getLocation.equals("") || getLocation.length() == 0
                 || getPassword.equals("") || getPassword.length() == 0
                 || getConfirmPassword.equals("")
-                || getConfirmPassword.length() == 0)
+                || getConfirmPassword.length() == 0) {
 
             new CustomToast().Show_Toast(getActivity(), view,
                     "All fields are required.");
-
+        }
             // Check if email id valid or not
-        else if (!m.find())
+        else if (!m.find()) {
             new CustomToast().Show_Toast(getActivity(), view,
                     "Your Email Id is Invalid.");
-
+        }
             // Check if both password should be equal
-        else if (!getConfirmPassword.equals(getPassword))
+        else if (!getConfirmPassword.equals(getPassword)) {
             new CustomToast().Show_Toast(getActivity(), view,
                     "Both password doesn't match.");
-
+        }
             // Make sure user should check Terms and Conditions checkbox
-        else if (!terms_conditions.isChecked())
+        else if (!terms_conditions.isChecked()) {
             new CustomToast().Show_Toast(getActivity(), view,
                     "Please select Terms and Conditions.");
-
+        }
             // Else do signup or do your stuff
         else {
             createAccount(getEmailId, getPassword);
@@ -166,34 +166,12 @@ public class SignUp_Fragment extends Fragment implements OnClickListener {
     }
 
     private void createAccount(String email, String password){
-        mAuth.createUserWithEmailAndPassword(email, password)
-                .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+        mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-
                         }
                     }
-                });}
-               // .addOnCompleteListener((Executor) this, new OnCompleteListener<AuthResult>() {
-               //     @Override
-               //     public void onComplete(@NonNull Task<AuthResult> task) {
-               //         if (task.isSuccessful()) {
-               //             // Sign in success, update UI with the signed-in user's information
-               //             Log.d(TAG, "createUserWithEmail:success");
-               //             FirebaseUser user = mAuth.getCurrentUser();
-               //             //updateUI(user);
-               //         } else {
-               //             // If sign in fails, display a message to the user.
-               //             Log.w(TAG, "createUserWithEmail:failure", task.getException());
-//
-               //             //updateUI(null);
-               //         }
-//
-               //         // ...
-               //     }
-               // });
+                });
     }
-
-
 }
