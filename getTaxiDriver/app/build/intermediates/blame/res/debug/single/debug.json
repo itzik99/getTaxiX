@@ -8,6 +8,10 @@
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\77aa0f96fdd617568c7e7253557e1bb0\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
+        "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_save_black_24dp.xml.flat",
+        "source": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\src\\main\\res\\drawable\\ic_save_black_24dp.xml"
+    },
+    {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_radio_material.xml.flat",
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\77aa0f96fdd617568c7e7253557e1bb0\\res\\drawable\\abc_btn_radio_material.xml"
     },
@@ -224,6 +228,10 @@
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\77aa0f96fdd617568c7e7253557e1bb0\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
+        "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_internal_bg.xml.flat",
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\77aa0f96fdd617568c7e7253557e1bb0\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
@@ -298,6 +306,10 @@
     {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_tab_indicator_material.xml.flat",
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\77aa0f96fdd617568c7e7253557e1bb0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_bottom.xml.flat",
@@ -612,12 +624,24 @@
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\77aa0f96fdd617568c7e7253557e1bb0\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_delete_forever_black_24dp.xml.flat",
+        "source": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\src\\main\\res\\drawable\\ic_delete_forever_black_24dp.xml"
+    },
+    {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\2b8641d6d0c5b1bc2d89ff8339475342\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\2b8641d6d0c5b1bc2d89ff8339475342\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_gallery.xml.flat",
+        "source": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -732,6 +756,10 @@
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\77aa0f96fdd617568c7e7253557e1bb0\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
+        "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_secondary_text_material_light.xml.flat",
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\77aa0f96fdd617568c7e7253557e1bb0\\res\\color\\abc_secondary_text_material_light.xml"
     },
@@ -750,6 +778,10 @@
     {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_menu_item_action_area.xml.flat",
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\3decc7644998d722722dc5a8c9ba9e60\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_slideshow.xml.flat",
+        "source": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
     },
     {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -856,6 +888,10 @@
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\3decc7644998d722722dc5a8c9ba9e60\\res\\color\\design_error.xml"
     },
     {
+        "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_get.png.flat",
+        "source": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\src\\main\\res\\drawable-xxhdpi\\get.png"
+    },
+    {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\77aa0f96fdd617568c7e7253557e1bb0\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
@@ -912,6 +948,10 @@
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\db7b00377ec21fe35b64767e57fafc9a\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
     },
     {
+        "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_local_taxi_black_24dp.xml.flat",
+        "source": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\src\\main\\res\\drawable\\ic_local_taxi_black_24dp.xml"
+    },
+    {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\2b8641d6d0c5b1bc2d89ff8339475342\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
     },
@@ -930,6 +970,10 @@
     {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_bottom_navigation_item.xml.flat",
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\3decc7644998d722722dc5a8c9ba9e60\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_ripple_color.xml.flat",
@@ -1040,6 +1084,10 @@
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\77aa0f96fdd617568c7e7253557e1bb0\\res\\layout\\abc_screen_simple.xml"
     },
     {
+        "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_manage.xml.flat",
+        "source": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\src\\main\\res\\drawable\\ic_menu_manage.xml"
+    },
+    {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\77aa0f96fdd617568c7e7253557e1bb0\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
@@ -1058,6 +1106,10 @@
     {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\77aa0f96fdd617568c7e7253557e1bb0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_delete_black_24dp.xml.flat",
+        "source": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\src\\main\\res\\drawable\\ic_delete_black_24dp.xml"
     },
     {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_colored_ripple_color.xml.flat",
@@ -1156,6 +1208,10 @@
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\db7b00377ec21fe35b64767e57fafc9a\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
     },
     {
+        "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_send.xml.flat",
+        "source": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\src\\main\\res\\drawable\\ic_menu_send.xml"
+    },
+    {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\db7b00377ec21fe35b64767e57fafc9a\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
     },
@@ -1250,6 +1306,10 @@
     {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\e649cb6831c291d0c18bb4504c338024\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_camera.xml.flat",
+        "source": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
     },
     {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
@@ -1432,6 +1492,10 @@
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\3decc7644998d722722dc5a8c9ba9e60\\res\\drawable-xxxhdpi-v4\\design_ic_visibility.png"
     },
     {
+        "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\menu_exe_nav.xml.flat",
+        "source": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\src\\main\\res\\menu\\exe_nav.xml"
+    },
+    {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\2b8641d6d0c5b1bc2d89ff8339475342\\res\\drawable-v21\\notification_action_background.xml"
     },
@@ -1540,8 +1604,16 @@
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\3decc7644998d722722dc5a8c9ba9e60\\res\\color\\mtrl_btn_text_btn_ripple_color.xml"
     },
     {
+        "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_exit_to_app_black_24dp.xml.flat",
+        "source": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\src\\main\\res\\drawable\\ic_exit_to_app_black_24dp.xml"
+    },
+    {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_tooltip_enter.xml.flat",
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\77aa0f96fdd617568c7e7253557e1bb0\\res\\anim\\abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_getaxi.jpg.flat",
+        "source": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\src\\main\\res\\drawable-xxhdpi\\getaxi.jpg"
     },
     {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -1972,6 +2044,10 @@
         "source": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_share.xml.flat",
+        "source": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\src\\main\\res\\drawable\\ic_menu_share.xml"
+    },
+    {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\77aa0f96fdd617568c7e7253557e1bb0\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
     },
@@ -2184,6 +2260,10 @@
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\e649cb6831c291d0c18bb4504c338024\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
+        "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_exe_nav_drawer.xml.flat",
+        "source": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\src\\main\\res\\menu\\activity_exe_nav_drawer.xml"
+    },
+    {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_bar.xml.flat",
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\77aa0f96fdd617568c7e7253557e1bb0\\res\\layout\\abc_action_mode_bar.xml"
     },
@@ -2198,6 +2278,10 @@
     {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\FRIEDMAN\\.gradle\\caches\\transforms-2\\files-2.1\\77aa0f96fdd617568c7e7253557e1bb0\\res\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
