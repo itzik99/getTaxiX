@@ -1,13 +1,18 @@
 package example.my_app.co.gettaxi2.loginRegister;
+import java.util.concurrent.Executor;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.content.res.ColorStateList;
 import android.content.res.XmlResourceParser;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -18,7 +23,15 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 import example.my_app.co.gettaxi2.R;
+
+import static android.support.constraint.Constraints.TAG;
 
 
 public class SignUp_Fragment extends Fragment implements OnClickListener {
@@ -28,11 +41,11 @@ public class SignUp_Fragment extends Fragment implements OnClickListener {
     private static TextView login;
     private static Button signUpButton;
     private static CheckBox terms_conditions;
+    private FirebaseAuth mAuth;
     SharedPreferences sp;
 
 
     public SignUp_Fragment() {
-
     }
 
     @Override
@@ -47,7 +60,8 @@ public class SignUp_Fragment extends Fragment implements OnClickListener {
 
     // Initialize all views
     private void initViews() {
-
+        // Initialize Firebase Auth
+        mAuth = FirebaseAuth.getInstance();
 
         fullName = (EditText) view.findViewById(R.id.fullName);
         emailId = (EditText) view.findViewById(R.id.userEmailId);
@@ -60,14 +74,8 @@ public class SignUp_Fragment extends Fragment implements OnClickListener {
         terms_conditions = (CheckBox) view.findViewById(R.id.terms_conditions);
         sp = this.getActivity().getSharedPreferences("driver", Context.MODE_PRIVATE);
 
-
-
-
-
-
-
         // Setting text selector over textviews
-        XmlResourceParser xrp = getResources().getXml(R.drawable.text_selector);
+        @SuppressLint("ResourceType") XmlResourceParser xrp = getResources().getXml(R.drawable.text_selector);
         try {
             ColorStateList csl = ColorStateList.createFromXml(getResources(),
                     xrp);
@@ -123,30 +131,31 @@ public class SignUp_Fragment extends Fragment implements OnClickListener {
                 || getLocation.equals("") || getLocation.length() == 0
                 || getPassword.equals("") || getPassword.length() == 0
                 || getConfirmPassword.equals("")
-                || getConfirmPassword.length() == 0)
+                || getConfirmPassword.length() == 0) {
 
             new CustomToast().Show_Toast(getActivity(), view,
                     "All fields are required.");
-
+        }
             // Check if email id valid or not
-        else if (!m.find())
+        else if (!m.find()) {
             new CustomToast().Show_Toast(getActivity(), view,
                     "Your Email Id is Invalid.");
-
+        }
             // Check if both password should be equal
-        else if (!getConfirmPassword.equals(getPassword))
+        else if (!getConfirmPassword.equals(getPassword)) {
             new CustomToast().Show_Toast(getActivity(), view,
                     "Both password doesn't match.");
-
+        }
             // Make sure user should check Terms and Conditions checkbox
-        else if (!terms_conditions.isChecked())
+        else if (!terms_conditions.isChecked()) {
             new CustomToast().Show_Toast(getActivity(), view,
                     "Please select Terms and Conditions.");
-
+        }
             // Else do signup or do your stuff
         else {
-            Toast.makeText(getActivity(), "Do SignUp.", Toast.LENGTH_SHORT)
-                    .show();
+            createAccount(getEmailId, getPassword);
+
+            Toast.makeText(getActivity(), "Do SignUp.", Toast.LENGTH_SHORT).show();
             SharedPreferences.Editor editor = sp.edit();
             editor.putString("name", fullName.getText().toString());
             editor.putString("email", emailId.getText().toString());
@@ -156,5 +165,13 @@ public class SignUp_Fragment extends Fragment implements OnClickListener {
 
     }
 
-
+    private void createAccount(String email, String password){
+        mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()) {
+                        }
+                    }
+                });
+    }
 }

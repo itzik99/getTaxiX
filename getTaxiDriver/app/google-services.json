@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "21975973856",
+    "firebase_url": "https://gettaxi-fa784.firebaseio.com",
+    "project_id": "gettaxi-fa784",
+    "storage_bucket": "gettaxi-fa784.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21975973856:android:ea02d8809d81d53a",
+        "android_client_info": {
+          "package_name": "example.my_app.co.gettaxi2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21975973856-m3fm3oein0qmq890b8ln2gopk36hll8a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "example.my_app.co.gettaxi2",
+            "certificate_hash": "82e85aaaf597f7ba72ee3eee810ee7bffbfbc8bb"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu3E23I1xXCO0b7UnBs2QB7jN0TdATWQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21975973856:android:bd28a16ebe787de1",
+        "android_client_info": {
+          "package_name": "example.my_app.co.gettaxix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu3E23I1xXCO0b7UnBs2QB7jN0TdATWQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

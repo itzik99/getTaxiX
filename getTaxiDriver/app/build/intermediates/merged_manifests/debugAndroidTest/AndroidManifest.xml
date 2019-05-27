@@ -3,7 +3,7 @@
     package="example.my_app.co.gettaxi2.test" >
 
     <uses-sdk
-        android:minSdkVersion="27"
+        android:minSdkVersion="25"
         android:targetSdkVersion="28" />
 
     <instrumentation

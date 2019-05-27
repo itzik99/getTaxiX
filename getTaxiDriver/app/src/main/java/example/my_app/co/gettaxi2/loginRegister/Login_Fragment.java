@@ -1,4 +1,5 @@
 package example.my_app.co.gettaxi2.loginRegister;
+import java.util.concurrent.Executor;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -10,11 +11,13 @@ import android.content.SharedPreferences;
 import android.content.res.ColorStateList;
 import android.content.res.XmlResourceParser;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.text.InputType;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -30,8 +33,16 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 import example.my_app.co.gettaxi2.R;
-import example.my_app.co.gettaxi2.drawerMain;
+import example.my_app.co.gettaxi2.main_travel;
+
+import static android.support.constraint.Constraints.TAG;
 
 public class Login_Fragment extends Fragment implements OnClickListener {
     private static View view;
@@ -43,6 +54,7 @@ public class Login_Fragment extends Fragment implements OnClickListener {
     private static LinearLayout loginLayout;
     private static Animation shakeAnimation;
     private static FragmentManager fragmentManager;
+    private FirebaseAuth mAuth;
 
 
     public Login_Fragment() {
@@ -60,6 +72,8 @@ public class Login_Fragment extends Fragment implements OnClickListener {
 
     // Initiate Views
     private void initViews() {
+        // Initialize Firebase Auth
+        mAuth = FirebaseAuth.getInstance();
         fragmentManager = getActivity().getSupportFragmentManager();
         emailid = (EditText) view.findViewById(R.id.login_emailid);
         password = (EditText) view.findViewById(R.id.login_password);
@@ -145,8 +159,13 @@ public class Login_Fragment extends Fragment implements OnClickListener {
         switch (v.getId()) {
             case R.id.loginBtn:
                 checkValidation();
-                Intent intent = new Intent(v.getContext(), drawerMain.class);
+                Intent intent = new Intent(v.getContext(), main_travel.class);
                 v.getContext().startActivity(intent);
+
+
+
+
+
                 break;
 
             case R.id.forgot_password:
@@ -200,10 +219,37 @@ public class Login_Fragment extends Fragment implements OnClickListener {
                     "Your Email Id is Invalid.");
             // Else do login and do your stuff
         else {
+            signIn(getEmailId, getPassword);
             Toast.makeText(getActivity(), "Do Login.", Toast.LENGTH_SHORT)
                     .show();
 
+
         }
+    }
+
+    private void signIn(String email, String password){
+        mAuth.signInWithEmailAndPassword(email, password)
+                .addOnCompleteListener((Executor) this, new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()) {
+                            // Sign in success, update UI with the signed-in user's information
+                            Log.d(TAG, "signInWithEmail:success");
+                            FirebaseUser user = mAuth.getCurrentUser();
+                            //updateUI(user);
+                        } else {
+                            // If sign in fails, display a message to the user.
+                            Log.w(TAG, "signInWithEmail:failure", task.getException());
+                            Intent intent = new Intent(Intent.ACTION_MAIN);
+                            intent.addCategory(Intent.CATEGORY_HOME);
+                            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                            startActivity(intent);
+                            //updateUI(null);
+                        }
+
+                        // ...
+                    }
+                });
     }
 
 }
