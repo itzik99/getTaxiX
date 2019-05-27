@@ -1,0 +1,361 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:2:1-37:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\77aa0f96fdd617568c7e7253557e1bb0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\acda9ca3ff09861efa87fe6935863bba\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\12c2e67a615364966f578a696801c073\AndroidManifest.xml:15:1-36:12
+MERGED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\29d226e44191d92cc846b5a0fb6f1da4\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\bfd88bce6ee63b98190c61d941a7442a\AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\41a1cc95eb8c2eb6f9e9da4f497f2df0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\83c7408e320c360947db0fef330b22cd\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\0ce6b834d65e7eae3a988a0d8edb1309\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\27ac71e97d5c7166dd4672710864e590\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\db7b00377ec21fe35b64767e57fafc9a\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\36b162667eda519e267153d0041b7db6\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\9074c8b4b9334d44c415c86e301cd2d0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\86dbaf080f2b84bcca6a42b199b1903c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\b14cccf69e53cb508b30b3ab819fdaad\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\ac385a9e5958a5d96574d37c2a701efa\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\ee7a623297d276d6585352945d680269\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\0e80fa3fcf4a1d08f3ff0c736af4c752\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\13d2e3b61d071f89bf25f39a40ffcd41\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\853c2a748799d3baedbcb50e973fb3b2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\467f9f2587bdc6ed5488e702b45c9086\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\289bd12ded820ea07f85730bb1e77101\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\7aee7c3259a5a6e0f5e9afe4e4cebf04\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\ac95d3f1f28a4cc3a99e5ad6a942a09d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\91e57bc2ccc5bf394abc1b3603692279\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\c8cd7d0937846655516297ef00862854\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\179bcdee25553052ee562e6a397fec08\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\3f82bdaa1097e7e502cc934227b12a87\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\1681b7ec10b3351fbbd84000c75c23ba\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\3a4f509b0b47b982625ecd20172cb462\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\2b8641d6d0c5b1bc2d89ff8339475342\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\a743aca033ba0d3156569bf351aad322\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\0736129626fa5b02dceeef3886065b2d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\ac95549339201625a9734133cf91451e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\d1033fb4aa1a1e973f2ffb0933ae3c44\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\e83533fc134211c4abbfcf063a7091ec\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\c42c697fe5117c60a7bbf3212341fd1d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\125185f72206203fd7079c1a12cd9c9e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\b795140e971c57665ce273da3122be92\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\a2d0c2235e3d889c571de8e26f0e93f9\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\c71956b64f29a2b5a15524447b578f16\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\feb5fa45ff38f995c52200c85c513d3b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\83619f1edd02db99d2bf132fe491db41\AndroidManifest.xml:2:1-7:12
+INJECTED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:2:1-37:12
+	package
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:2:1-37:12
+		INJECTED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:2:1-37:12
+		INJECTED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:5:5-97
+	android:name
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:6:5-83
+MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\12c2e67a615364966f578a696801c073\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\12c2e67a615364966f578a696801c073\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\bfd88bce6ee63b98190c61d941a7442a\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\bfd88bce6ee63b98190c61d941a7442a\AndroidManifest.xml:27:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\83c7408e320c360947db0fef330b22cd\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\83c7408e320c360947db0fef330b22cd\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:7:5-95
+	android:name
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:7:22-76
+uses-feature#0x00020000
+ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:8:5-10:34
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\83c7408e320c360947db0fef330b22cd\AndroidManifest.xml:26:5-28:35
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\83c7408e320c360947db0fef330b22cd\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:9:9-41
+	android:required
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:10:9-32
+application
+ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:11:5-35:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\acda9ca3ff09861efa87fe6935863bba\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\acda9ca3ff09861efa87fe6935863bba\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\12c2e67a615364966f578a696801c073\AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\12c2e67a615364966f578a696801c073\AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\29d226e44191d92cc846b5a0fb6f1da4\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\29d226e44191d92cc846b5a0fb6f1da4\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\bfd88bce6ee63b98190c61d941a7442a\AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\bfd88bce6ee63b98190c61d941a7442a\AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\41a1cc95eb8c2eb6f9e9da4f497f2df0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\41a1cc95eb8c2eb6f9e9da4f497f2df0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\83c7408e320c360947db0fef330b22cd\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\83c7408e320c360947db0fef330b22cd\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\27ac71e97d5c7166dd4672710864e590\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\27ac71e97d5c7166dd4672710864e590\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\db7b00377ec21fe35b64767e57fafc9a\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\db7b00377ec21fe35b64767e57fafc9a\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\36b162667eda519e267153d0041b7db6\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\36b162667eda519e267153d0041b7db6\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\9074c8b4b9334d44c415c86e301cd2d0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\9074c8b4b9334d44c415c86e301cd2d0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\86dbaf080f2b84bcca6a42b199b1903c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\86dbaf080f2b84bcca6a42b199b1903c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\b14cccf69e53cb508b30b3ab819fdaad\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\b14cccf69e53cb508b30b3ab819fdaad\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\ac385a9e5958a5d96574d37c2a701efa\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\ac385a9e5958a5d96574d37c2a701efa\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\3a4f509b0b47b982625ecd20172cb462\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\3a4f509b0b47b982625ecd20172cb462\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\2b8641d6d0c5b1bc2d89ff8339475342\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\2b8641d6d0c5b1bc2d89ff8339475342\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\a743aca033ba0d3156569bf351aad322\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\a743aca033ba0d3156569bf351aad322\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\2b8641d6d0c5b1bc2d89ff8339475342\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:14:9-33
+	android:roundIcon
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:15:9-54
+	android:icon
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:17:9-40
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:19:9-21:46
+	android:value
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:21:13-44
+	android:name
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:20:13-58
+activity#example.my_app.co.gettaxix.controller.OrderTaxi
+ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:22:9-67
+	android:name
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:22:19-55
+activity#example.my_app.co.gettaxix.controller.MainActivity
+ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:23:9-30:20
+	android:label
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:24:13-34
+	android:name
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:23:19-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:28:27-74
+meta-data#com.google.android.gms.versions
+ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:32:9-33:68
+	android:value
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:33:13-66
+	android:name
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml:32:20-66
+uses-sdk
+INJECTED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\77aa0f96fdd617568c7e7253557e1bb0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\77aa0f96fdd617568c7e7253557e1bb0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\acda9ca3ff09861efa87fe6935863bba\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\acda9ca3ff09861efa87fe6935863bba\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\12c2e67a615364966f578a696801c073\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\12c2e67a615364966f578a696801c073\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\29d226e44191d92cc846b5a0fb6f1da4\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\29d226e44191d92cc846b5a0fb6f1da4\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\bfd88bce6ee63b98190c61d941a7442a\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\bfd88bce6ee63b98190c61d941a7442a\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\41a1cc95eb8c2eb6f9e9da4f497f2df0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\41a1cc95eb8c2eb6f9e9da4f497f2df0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\83c7408e320c360947db0fef330b22cd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\83c7408e320c360947db0fef330b22cd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\0ce6b834d65e7eae3a988a0d8edb1309\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\0ce6b834d65e7eae3a988a0d8edb1309\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\27ac71e97d5c7166dd4672710864e590\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\27ac71e97d5c7166dd4672710864e590\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\db7b00377ec21fe35b64767e57fafc9a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\db7b00377ec21fe35b64767e57fafc9a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\36b162667eda519e267153d0041b7db6\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\36b162667eda519e267153d0041b7db6\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\9074c8b4b9334d44c415c86e301cd2d0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\9074c8b4b9334d44c415c86e301cd2d0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\86dbaf080f2b84bcca6a42b199b1903c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\86dbaf080f2b84bcca6a42b199b1903c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\b14cccf69e53cb508b30b3ab819fdaad\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\b14cccf69e53cb508b30b3ab819fdaad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\ac385a9e5958a5d96574d37c2a701efa\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\ac385a9e5958a5d96574d37c2a701efa\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\ee7a623297d276d6585352945d680269\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\ee7a623297d276d6585352945d680269\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\0e80fa3fcf4a1d08f3ff0c736af4c752\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\0e80fa3fcf4a1d08f3ff0c736af4c752\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\13d2e3b61d071f89bf25f39a40ffcd41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\13d2e3b61d071f89bf25f39a40ffcd41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\853c2a748799d3baedbcb50e973fb3b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\853c2a748799d3baedbcb50e973fb3b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\467f9f2587bdc6ed5488e702b45c9086\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\467f9f2587bdc6ed5488e702b45c9086\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\289bd12ded820ea07f85730bb1e77101\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\289bd12ded820ea07f85730bb1e77101\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\7aee7c3259a5a6e0f5e9afe4e4cebf04\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\7aee7c3259a5a6e0f5e9afe4e4cebf04\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\ac95d3f1f28a4cc3a99e5ad6a942a09d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\ac95d3f1f28a4cc3a99e5ad6a942a09d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\91e57bc2ccc5bf394abc1b3603692279\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\91e57bc2ccc5bf394abc1b3603692279\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\c8cd7d0937846655516297ef00862854\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\c8cd7d0937846655516297ef00862854\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\179bcdee25553052ee562e6a397fec08\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\179bcdee25553052ee562e6a397fec08\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\3f82bdaa1097e7e502cc934227b12a87\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\3f82bdaa1097e7e502cc934227b12a87\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\1681b7ec10b3351fbbd84000c75c23ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\1681b7ec10b3351fbbd84000c75c23ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\3a4f509b0b47b982625ecd20172cb462\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\3a4f509b0b47b982625ecd20172cb462\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\2b8641d6d0c5b1bc2d89ff8339475342\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\2b8641d6d0c5b1bc2d89ff8339475342\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\a743aca033ba0d3156569bf351aad322\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\a743aca033ba0d3156569bf351aad322\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\0736129626fa5b02dceeef3886065b2d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\0736129626fa5b02dceeef3886065b2d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\ac95549339201625a9734133cf91451e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\ac95549339201625a9734133cf91451e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\d1033fb4aa1a1e973f2ffb0933ae3c44\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\d1033fb4aa1a1e973f2ffb0933ae3c44\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\e83533fc134211c4abbfcf063a7091ec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\e83533fc134211c4abbfcf063a7091ec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\c42c697fe5117c60a7bbf3212341fd1d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\c42c697fe5117c60a7bbf3212341fd1d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\125185f72206203fd7079c1a12cd9c9e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\125185f72206203fd7079c1a12cd9c9e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\b795140e971c57665ce273da3122be92\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\b795140e971c57665ce273da3122be92\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\a2d0c2235e3d889c571de8e26f0e93f9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\a2d0c2235e3d889c571de8e26f0e93f9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\c71956b64f29a2b5a15524447b578f16\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\c71956b64f29a2b5a15524447b578f16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\feb5fa45ff38f995c52200c85c513d3b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\feb5fa45ff38f995c52200c85c513d3b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\83619f1edd02db99d2bf132fe491db41\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\83619f1edd02db99d2bf132fe491db41\AndroidManifest.xml:5:5-44
+INJECTED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\ac385a9e5958a5d96574d37c2a701efa\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\FRIEDMAN\Desktop\getTaxiX\getTaxiPassanger\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\12c2e67a615364966f578a696801c073\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\bfd88bce6ee63b98190c61d941a7442a\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\bfd88bce6ee63b98190c61d941a7442a\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\83c7408e320c360947db0fef330b22cd\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\83c7408e320c360947db0fef330b22cd\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\12c2e67a615364966f578a696801c073\AndroidManifest.xml:25:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\12c2e67a615364966f578a696801c073\AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\29d226e44191d92cc846b5a0fb6f1da4\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\29d226e44191d92cc846b5a0fb6f1da4\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\bfd88bce6ee63b98190c61d941a7442a\AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\bfd88bce6ee63b98190c61d941a7442a\AndroidManifest.xml:30:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\29d226e44191d92cc846b5a0fb6f1da4\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-database:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\12c2e67a615364966f578a696801c073\AndroidManifest.xml:29:18-89
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\12c2e67a615364966f578a696801c073\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\12c2e67a615364966f578a696801c073\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\12c2e67a615364966f578a696801c073\AndroidManifest.xml:31:17-109
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\29d226e44191d92cc846b5a0fb6f1da4\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\29d226e44191d92cc846b5a0fb6f1da4\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\29d226e44191d92cc846b5a0fb6f1da4\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\29d226e44191d92cc846b5a0fb6f1da4\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\29d226e44191d92cc846b5a0fb6f1da4\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\29d226e44191d92cc846b5a0fb6f1da4\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\29d226e44191d92cc846b5a0fb6f1da4\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\29d226e44191d92cc846b5a0fb6f1da4\AndroidManifest.xml:25:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\29d226e44191d92cc846b5a0fb6f1da4\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\29d226e44191d92cc846b5a0fb6f1da4\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\29d226e44191d92cc846b5a0fb6f1da4\AndroidManifest.xml:37:17-109
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\bfd88bce6ee63b98190c61d941a7442a\AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\bfd88bce6ee63b98190c61d941a7442a\AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\bfd88bce6ee63b98190c61d941a7442a\AndroidManifest.xml:32:17-107
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\83c7408e320c360947db0fef330b22cd\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\83c7408e320c360947db0fef330b22cd\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\83c7408e320c360947db0fef330b22cd\AndroidManifest.xml:34:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\db7b00377ec21fe35b64767e57fafc9a\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\db7b00377ec21fe35b64767e57fafc9a\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\db7b00377ec21fe35b64767e57fafc9a\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\db7b00377ec21fe35b64767e57fafc9a\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\36b162667eda519e267153d0041b7db6\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\36b162667eda519e267153d0041b7db6\AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\36b162667eda519e267153d0041b7db6\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\36b162667eda519e267153d0041b7db6\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\36b162667eda519e267153d0041b7db6\AndroidManifest.xml:13:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\b14cccf69e53cb508b30b3ab819fdaad\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\b14cccf69e53cb508b30b3ab819fdaad\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\b14cccf69e53cb508b30b3ab819fdaad\AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\ac385a9e5958a5d96574d37c2a701efa\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\3a4f509b0b47b982625ecd20172cb462\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\3a4f509b0b47b982625ecd20172cb462\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\ac385a9e5958a5d96574d37c2a701efa\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\FRIEDMAN\.gradle\caches\transforms-2\files-2.1\ac385a9e5958a5d96574d37c2a701efa\AndroidManifest.xml:27:13-51
