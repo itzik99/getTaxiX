@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 //import example.my_app.co.gettaxi2.R;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -101,7 +102,7 @@ public class Login_Fragment extends Fragment implements OnClickListener {
                 R.anim.shake);
 
         // Setting text selector over textviews
-        XmlResourceParser xrp = getResources().getXml(R.drawable.text_selector);
+        @SuppressLint("ResourceType") XmlResourceParser xrp = getResources().getXml(R.drawable.text_selector);
         try {
             ColorStateList csl = ColorStateList.createFromXml(getResources(),
                     xrp);
@@ -161,11 +162,6 @@ public class Login_Fragment extends Fragment implements OnClickListener {
                 checkValidation();
                 Intent intent = new Intent(v.getContext(), main_travel.class);
                 v.getContext().startActivity(intent);
-
-
-
-
-
                 break;
 
             case R.id.forgot_password:
@@ -188,17 +184,13 @@ public class Login_Fragment extends Fragment implements OnClickListener {
                                 Utils.SignUp_Fragment).commit();
                 break;
         }
-
     }
-
 
     // Check Validation before login
     private void checkValidation() {
         // Get email id and password
         String getEmailId = emailid.getText().toString();
         String getPassword = password.getText().toString();
-
-
 
         // Check patter for email id
         Pattern p = Pattern.compile(Utils.regEx);
@@ -223,7 +215,6 @@ public class Login_Fragment extends Fragment implements OnClickListener {
             Toast.makeText(getActivity(), "Do Login.", Toast.LENGTH_SHORT)
                     .show();
 
-
         }
     }
 
@@ -246,10 +237,7 @@ public class Login_Fragment extends Fragment implements OnClickListener {
                             startActivity(intent);
                             //updateUI(null);
                         }
-
-                        // ...
                     }
                 });
     }
-
 }
