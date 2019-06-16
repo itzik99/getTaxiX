@@ -1,4 +1,0 @@
-#Mon May 27 14:15:12 IDT 2019
-base.0=C\:\\Users\\FRIEDMAN\\Desktop\\getTaxiX\\getTaxiDriver\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-path.0=classes.dex
-renamed.0=classes.dex
